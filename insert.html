@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>K17 Blog</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<link rel="icon" href="/k17blog/img/k.jpg" sizes="16x16" type="image/png">
+<body>
+
+
+<div class="container-fluid">
+ <nav role="navigation" class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="/k17blog/index.php">
+        <img alt="CEG LOGO" src="/k17blog/img/cegsymbol.png" height="35" width="40" align="left">
+      </a>
+      <a class="navbar-brand" href="/k17blog/index.php">k17! Blog</a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li><a href="/k17blog/index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li class="active"><a href="/k17blog/insert.html"><span class="glyphicon glyphicon-paperclip"></span> New Post</a></li>
+<li><a href="/k17blog/genid.html"><span class="glyphicon glyphicon-refresh"></span> Blog Id</a></li>
+<li><a href="/k17blog/searchid.html"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li ><a href="/k17blog/feedback.html"><span class="glyphicon glyphicon-send"></span>  Feed Back</a></li>
+      
+      <li><a href="/k17blog/contact.php"><span class="glyphicon glyphicon-map-marker"></span>  Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+<br>
+<table width="100%">
+<tr>
+<td><img src="/k17blog/img/cegfinal.png" alt="CEG Logo" height="100" width="200"></td>
+<td><p align="center"><img src="/k17blog/img/k17.png" alt="k Logo" height="100" width="275"></td>
+<td align="right"><img src="/k17blog/img/unesco.jpg" alt="Unesco  Logo" height="100" width="275"></td>
+</tr>
+</table>
+<hr>
+<br><br>
+<form action="/k17blog/insertss.php" method="post" align="center">
+<input type="text" placeholder="Title" name="fname" id="a" required><br><br>
+<input type="text" placeholder="Category" name="fnames" id="a" required><br><br>
+<input type="text" placeholder="Author" name="lname" id="e" required><br><br>
+<textarea type="text" placeholder="Content -> Maximum 4086 Characters" name="email" id="i" cols="50" rows="5" maxlength="4086" required></textarea><br><br>
+<input type="date" placeholder="Date" name="vai" id="o" required><br><br>
+<input type="time" placeholder="Time" name="vaii" id="u"  required><br><br>
+
+  <button type="submit" class="btn btn-success">Submit</button>       
+</form>
+<ul class="pager">
+    <li><a href="/k17blog/index.php">Previous</a></li>
+    
+  </ul>
+</body>
+</html>
